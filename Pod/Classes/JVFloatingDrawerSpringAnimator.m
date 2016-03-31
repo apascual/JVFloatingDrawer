@@ -46,7 +46,7 @@ static const CGFloat kJVCenterViewDestinationScale = 0.7;
               initialSpringVelocity:self.initialSpringVelocity
                             options:UIViewAnimationOptionCurveLinear
                          animations:springAnimation
-                         completion:nil];
+                         completion:completion];
     } else {
         springAnimation(); // Call spring animation block without animating
     }
